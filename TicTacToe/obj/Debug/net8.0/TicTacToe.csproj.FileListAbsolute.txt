@@ -12,3 +12,4 @@ C:\Users\edik\source\repos\TicTacToe\TicTacToe\obj\Debug\net8.0\refint\TicTacToe
 C:\Users\edik\source\repos\TicTacToe\TicTacToe\obj\Debug\net8.0\TicTacToe.pdb
 C:\Users\edik\source\repos\TicTacToe\TicTacToe\obj\Debug\net8.0\TicTacToe.genruntimeconfig.cache
 C:\Users\edik\source\repos\TicTacToe\TicTacToe\obj\Debug\net8.0\ref\TicTacToe.dll
+C:\Users\edik\source\repos\TicTacToe\TicTacToe\obj\Debug\net8.0\TicTacToe.sourcelink.json

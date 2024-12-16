@@ -13,6 +13,7 @@ internal class Program
         Symbol queue = Symbol.Cross;
         while (true)
         {
+            int steps = 0;
             Console.Clear();
             Console.SetCursorPosition(0, 0);
             ConFRed();
@@ -77,39 +78,24 @@ internal class Program
                             if (inp > 6)
                             {
                                 map.SetSymbol(2, inp - 7, queue);
-                                if (queue == Symbol.Zero)
-                                {
-                                    queue = Symbol.Cross;
-                                }
-                                else
-                                {
-                                    queue = Symbol.Zero;
-                                }
                             }
                             else if (inp > 3)
                             {
                                 map.SetSymbol(1, inp - 4, queue);
-                                if (queue == Symbol.Zero)
-                                {
-                                    queue = Symbol.Cross;
-                                }
-                                else
-                                {
-                                    queue = Symbol.Zero;
-                                }
                             }
                             else
                             {
                                 map.SetSymbol(0, inp - 1, queue);
-                                if (queue == Symbol.Zero)
-                                {
-                                    queue = Symbol.Cross;
-                                }
-                                else
-                                {
-                                    queue = Symbol.Zero;
-                                }
                             }
+                            if (queue == Symbol.Zero)
+                            {
+                                queue = Symbol.Cross;
+                            }
+                            else
+                            {
+                                queue = Symbol.Zero;
+                            }
+                            steps++;
                             break;
                     }
                 }
@@ -131,6 +117,13 @@ internal class Program
                     }
                     ConStnd();
                     Console.Write('!');
+                    Console.ReadKey(true);
+                    break;
+                }
+                else if (steps == 9)
+                {
+                    ConStnd();
+                    Console.Write("Ничья!");
                     Console.ReadKey(true);
                     break;
                 }

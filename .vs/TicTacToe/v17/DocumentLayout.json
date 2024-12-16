@@ -32,11 +32,23 @@
               "RelativeDocumentMoniker": "TicTacToe\\Program.cs",
               "ToolTip": "C:\\Users\\edik\\source\\repos\\TicTacToe\\TicTacToe\\Program.cs",
               "RelativeToolTip": "TicTacToe\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAALMAAAAAAAAAAAAAAFYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T20:59:08.999Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -48,8 +60,7 @@
               "RelativeToolTip": "TicTacToe\\Grid.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T08:46:34.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T08:46:34.976Z"
             },
             {
               "$type": "Document",
@@ -61,8 +72,7 @@
               "RelativeToolTip": "TicTacToe\\Map.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAWwBgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T20:59:51.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T20:59:51.73Z"
             }
           ]
         }
